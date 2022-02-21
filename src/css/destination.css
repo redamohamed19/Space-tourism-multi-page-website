@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Kumbh+Sans&family=Lalezar&display=swap');
+.destination {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.planet_name {
+  font-size: 6.25rem;
+  text-align: left;
+  padding-top: 20px;
+  font-family: 'Bellefair', serif;
+  line-height: 1.1;
+}
+
+.destination h1 {
+  color: white;
+
+  letter-spacing: 4.72px;
+}
+.pick_dest_span {
+  opacity: 0.5;
+}
+.destination_grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.planet_menu ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.planet_menu ul li {
+  list-style-type: none;
+  color: white;
+  padding: 5px 3px 5px 3px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: 2.7px;
+  text-align: center;
+}
+.planet_desc p {
+  color: white;
+  font-size: 1.125rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  width: 90%;
+}
+hr {
+  opacity: 0.5;
+  margin-top: 30px;
+}
+.planet_number {
+  display: flex;
+  justify-content: flex-start;
+  gap: 70px;
+  color: white;
+  margin-top: 30px;
+}
+.AVG_DISTANCE p {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+.AVG_DISTANCE h2 {
+  font-size: 1.75rem;
+
+  padding-top: 10px;
+}
+.EST_TRAVEL_TIME p {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+.EST_TRAVEL_TIME h2 {
+  font-size: 1.75rem;
+
+  padding-top: 10px;
+}
+@media only screen and (max-width: 1250px) {
+  .destination {
+    width: 95%;
+  }
+  #planet_name {
+    font-size: 5rem;
+  }
+  .destination_grid {
+    grid-template-columns: 80%;
+    grid-template-rows: 50% 50%;
+  }
+  .planet_pic,
+  .planet_info {
+    margin: 0 auto;
+  }
+  .planet_info {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .planet_pic {
+    display: flex;
+    justify-content: center;
+  }
+  .planet_pic img {
+    width: 80%;
+  }
+  .destination h1 {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .destination_grid {
+    grid-template-columns: 90%;
+    grid-template-rows: 50% 50%;
+  }
+  .planet_info p {
+    text-align: center;
+  }
+  #planet_name {
+    font-size: 4rem;
+    text-align: center;
+  }
+}

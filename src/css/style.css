@@ -10,7 +10,7 @@
 
 #root {
   background: url(../imgs/home/background-home-desktop.jpg);
-  height: 1000px;
+  height: 1200px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -211,6 +211,7 @@ nav {
   .h1intro,
   .introp {
     text-align: center;
+    padding-top: 30px;
   }
   .explore {
     margin-top: 50px;
