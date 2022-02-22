@@ -194,6 +194,9 @@ nav {
     padding: 20px;
   }
   .res_navbar li a {
+    text-decoration: none;
+  }
+  .res_navbar li a {
     color: white;
     line-height: 1.5;
     letter-spacing: 2.7px;
@@ -222,7 +225,9 @@ nav {
     margin: auto auto;
     width: 200px;
     height: 200px;
+    margin-top: 80px;
   }
+
   @keyframes opennavbar {
     from {
       transform: translate(1000px);

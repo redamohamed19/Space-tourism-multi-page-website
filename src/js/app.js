@@ -17,7 +17,9 @@ const App = () => {
     <Router>
       <div>
         <nav>
-          <img src={logo} className="logo" />
+          <Link to="/">
+            <img src={logo} className="logo" />
+          </Link>
           <div className="co_nav">
             <div className="line"></div>
             <ul className="navbar">
@@ -55,9 +57,11 @@ const App = () => {
             ></div>
             <ul className="res_navbar close_navbar" id="menu">
               <li>
-                <a>
-                  <span>00 </span>HOME
-                </a>
+                <Link to="/">
+                  <a>
+                    <span>00 </span>HOME
+                  </a>
+                </Link>
               </li>
               <li>
                 <Link to="/destination">

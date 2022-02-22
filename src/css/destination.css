@@ -87,6 +87,7 @@ hr {
     grid-template-columns: 80%;
     grid-template-rows: 50% 50%;
   }
+
   .planet_pic,
   .planet_info {
     margin: 0 auto;
@@ -108,8 +109,11 @@ hr {
 }
 @media only screen and (max-width: 640px) {
   .destination_grid {
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
+  }
+  .destination h1 {
+    font-size: 0.9rem;
   }
   .planet_info p {
     text-align: center;
@@ -117,5 +121,18 @@ hr {
   #planet_name {
     font-size: 4rem;
     text-align: center;
+  }
+  .planet_menu ul {
+    gap: 5px;
+    justify-content: space-between;
+  }
+  .planet_desc p {
+    width: 100%;
+  }
+  .AVG_DISTANCE h2 {
+    font-size: 1.5rem;
+  }
+  .EST_TRAVEL_TIME h2 {
+    font-size: 1.5rem;
   }
 }
