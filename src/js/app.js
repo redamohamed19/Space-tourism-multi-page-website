@@ -1,8 +1,10 @@
 import React from 'react';
 import '../css/style.css';
+import '../css/crew.css';
 import { render } from 'react-dom';
 import logo from '../imgs/shared/logo.svg';
 import Destination from './destination';
+import Crew from './crew';
 import Home from './home';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 const App = () => {
@@ -38,9 +40,11 @@ const App = () => {
                 </Link>
               </li>
               <li>
-                <a>
-                  <span>02 </span> CREW
-                </a>
+                <Link to="/crew">
+                  <a>
+                    <span>02 </span> CREW
+                  </a>
+                </Link>
               </li>
               <li>
                 <a>
@@ -71,9 +75,11 @@ const App = () => {
                 </Link>
               </li>
               <li>
-                <a>
-                  <span>02 </span>CREW
-                </a>
+                <Link to="/crew">
+                  <a>
+                    <span>02 </span>CREW
+                  </a>
+                </Link>
               </li>
               <li>
                 <a>
@@ -87,6 +93,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/destination" component={Destination} />
+          <Route exact path="/crew" component={Crew} />
         </Switch>
       </div>
     </Router>
