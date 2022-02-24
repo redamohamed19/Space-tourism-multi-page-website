@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/style.css';
 import '../css/destination.css';
-import commander from '../imgs/crew/image-douglas-hurley.png';
-const hurley = () => {
+import commander from '../imgs/crew/image-mark-shuttleworth.png';
+const mark = () => {
   return (
     <div className="crew">
       <h1>
@@ -10,12 +10,13 @@ const hurley = () => {
       </h1>
       <div className="crew_grid">
         <div className="crew_info">
-          <h1 className="crew_position">COMMANDER</h1>
-          <h1 className="crew_name">DOUGLAS HURLEY</h1>
+          <h1 className="crew_position">MISSION SPECIALIST</h1>
+          <h1 className="crew_name">MARK SHUTTLEWORTH</h1>
           <p className="crew_bio">
-            Douglas Gerald Hurley is an American engineer, former Marine Corps
-            pilot and former NASA astronaut. He launched into space for the
-            third time as commander of Crew Dragon Demo-2.
+            Mark Richard Shuttleworth is the founder and CEO of Canonical, the
+            company behind the Linux-based Ubuntu operating system. Shuttleworth
+            became the first South African to travel to space as a space
+            tourist.
           </p>
         </div>
         <ul className="crew_list">
@@ -31,4 +32,4 @@ const hurley = () => {
     </div>
   );
 };
-export default hurley;
+export default mark;

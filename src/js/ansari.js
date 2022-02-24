@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/style.css';
 import '../css/destination.css';
-import commander from '../imgs/crew/image-douglas-hurley.png';
-const hurley = () => {
+import commander from '../imgs/crew/image-anousheh-ansari.png';
+const ansari = () => {
   return (
     <div className="crew">
       <h1>
@@ -10,12 +10,13 @@ const hurley = () => {
       </h1>
       <div className="crew_grid">
         <div className="crew_info">
-          <h1 className="crew_position">COMMANDER</h1>
-          <h1 className="crew_name">DOUGLAS HURLEY</h1>
+          <h1 className="crew_position">FLIGHT ENGINEER</h1>
+          <h1 className="crew_name">ANOUSHEH ANSARI</h1>
           <p className="crew_bio">
-            Douglas Gerald Hurley is an American engineer, former Marine Corps
-            pilot and former NASA astronaut. He launched into space for the
-            third time as commander of Crew Dragon Demo-2.
+            Anousheh Ansari is an Iranian American engineer and co-founder of
+            Prodea Systems. Ansari was the fourth self-funded space tourist, the
+            first self-funded woman to fly to the ISS, and the first Iranian in
+            space.
           </p>
         </div>
         <ul className="crew_list">
@@ -31,4 +32,4 @@ const hurley = () => {
     </div>
   );
 };
-export default hurley;
+export default ansari;

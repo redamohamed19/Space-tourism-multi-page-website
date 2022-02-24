@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/style.css';
 import '../css/destination.css';
-import commander from '../imgs/crew/image-douglas-hurley.png';
-const hurley = () => {
+import commander from '../imgs/crew/image-victor-glover.png';
+const victor = () => {
   return (
     <div className="crew">
       <h1>
@@ -10,12 +10,13 @@ const hurley = () => {
       </h1>
       <div className="crew_grid">
         <div className="crew_info">
-          <h1 className="crew_position">COMMANDER</h1>
-          <h1 className="crew_name">DOUGLAS HURLEY</h1>
+          <h1 className="crew_position">PILOT</h1>
+          <h1 className="crew_name">VICTOR GLOVER</h1>
           <p className="crew_bio">
-            Douglas Gerald Hurley is an American engineer, former Marine Corps
-            pilot and former NASA astronaut. He launched into space for the
-            third time as commander of Crew Dragon Demo-2.
+            Pilot on the first operational flight of the SpaceX Crew Dragon to
+            the International Space Station. Glover is a commander in the U.S.
+            Navy where he pilots an F/A-18.He was a crew member of Expedition
+            64, and served as a station systems flight engineer.
           </p>
         </div>
         <ul className="crew_list">
@@ -31,4 +32,4 @@ const hurley = () => {
     </div>
   );
 };
-export default hurley;
+export default victor;

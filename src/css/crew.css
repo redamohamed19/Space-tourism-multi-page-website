@@ -63,7 +63,95 @@
   grid-column: 2/3;
   align-self: flex-end;
 }
+@media only screen and (max-width: 1250px) {
+  .crew {
+    width: 85%;
+  }
+  .crew_grid {
+    height: 1000px;
 
-* {
-  color: aliceblue;
+    grid-template-columns: 80%;
+    grid-template-rows: 30% 10% 60%;
+
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+  .crew_info {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .crew_list {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: white;
+    justify-self: center;
+  }
+  .crew_pic {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    align-self: flex-end;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .crew {
+    width: 95%;
+    margin-top: 10px;
+  }
+  .crew h1 {
+    color: white;
+
+    letter-spacing: 4.72px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .crew_grid {
+    height: 1000px;
+
+    grid-template-columns: 80%;
+    grid-template-rows: 40% 10% 45%;
+
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+  .crew_info {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+  .crew_position {
+    font-size: 2rem;
+  }
+  .crew_name {
+    font-size: 2.125rem;
+  }
+  .crew_bio {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 30px;
+  }
+  .crew_list {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: white;
+    justify-self: center;
+  }
+  .crew_pic {
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+    align-self: flex-start;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+  }
+  .crew_pic img {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .crew_grid {
+    grid-template-columns: 80%;
+    grid-template-rows: 30% 10% 45%;
+  }
 }
