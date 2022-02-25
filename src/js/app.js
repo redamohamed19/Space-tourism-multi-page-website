@@ -8,6 +8,7 @@ import Destination from './destination';
 import Technology from './technology';
 import Crew from './crew';
 import Home from './home';
+
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 const App = () => {
   const openandclose = () => {

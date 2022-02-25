@@ -58,6 +58,10 @@ nav {
   text-decoration: none;
   line-height: 10px;
 }
+.navbar li a:hover {
+  border-bottom: 4px white solid;
+  padding-bottom: 30px;
+}
 .res_navbar {
   display: none;
 }

@@ -34,6 +34,10 @@
   margin-bottom: 40px;
   font-weight: bold;
 }
+.list_technology li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
 .list_technology li:nth-child(1) {
   background-color: white;
   color: black;

@@ -11,6 +11,20 @@
   font-family: 'Bellefair', serif;
   line-height: 1.1;
 }
+#cake {
+  animation: pulse 4s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
 
 .destination h1 {
   color: white;

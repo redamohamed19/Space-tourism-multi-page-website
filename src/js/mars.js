@@ -11,7 +11,7 @@ const mars = props => {
       </h1>
       <div className="destination_grid">
         <div className="planet_pic">
-          <img src={planet01} />
+          <img src={planet01} id="cake" />
         </div>
         <div className="planet_info">
           <div className="planet_menu">

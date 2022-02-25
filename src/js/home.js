@@ -19,7 +19,10 @@ const Home = () => {
         </div>
       </div>
       <div className="explore">
-        <button className="btn">EXPLORE</button>
+        <Link to="/destination">
+          {' '}
+          <button className="btn">EXPLORE</button>
+        </Link>
       </div>
     </section>
   );

@@ -56,6 +56,10 @@
 .crew_list li {
   opacity: 0.2;
 }
+.crew_list li:hover {
+  background-color: white;
+  opacity: 0.5;
+}
 .crew_list li:nth-child(4) {
   opacity: 1;
 }

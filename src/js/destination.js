@@ -7,6 +7,7 @@ import Mars from './mars';
 import Europa from './europa';
 import Titan from './titan';
 import { useRef, useState } from 'react';
+import move from './planetmove';
 const destination = () => {
   const [showmoon, setshowmoon] = useState(true);
   const [showmars, setshowmars] = useState(false);
