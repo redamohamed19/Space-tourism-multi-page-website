@@ -1,9 +1,11 @@
 import React from 'react';
 import '../css/style.css';
 import '../css/crew.css';
+import '../css/technology.css';
 import { render } from 'react-dom';
 import logo from '../imgs/shared/logo.svg';
 import Destination from './destination';
+import Technology from './technology';
 import Crew from './crew';
 import Home from './home';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
@@ -47,9 +49,11 @@ const App = () => {
                 </Link>
               </li>
               <li>
-                <a>
-                  <span>03 </span> TECHNOLOGY
-                </a>
+                <Link to="/technology">
+                  <a>
+                    <span>03 </span> TECHNOLOGY
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -82,9 +86,11 @@ const App = () => {
                 </Link>
               </li>
               <li>
-                <a>
-                  <span>03 </span>TECHNOLOGY
-                </a>
+                <Link to="/technology">
+                  <a>
+                    <span>03 </span>TECHNOLOGY
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -94,6 +100,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/destination" component={Destination} />
           <Route exact path="/crew" component={Crew} />
+          <Route exact path="/technology" component={Technology} />
         </Switch>
       </div>
     </Router>

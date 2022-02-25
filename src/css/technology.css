@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Kumbh+Sans&family=Lalezar&family=Nanum+Myeongjo&display=swap');
+.technology {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.technology h1 {
+  color: white;
+
+  letter-spacing: 4.72px;
+}
+.technology_grid {
+  display: grid;
+  grid-template-columns: 10% 40% 30%;
+
+  column-gap: 5%;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 150px;
+}
+
+.list_technology li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+  font-size: 2rem;
+  border: 2px white solid;
+  height: 100px;
+  width: 100px;
+  border-radius: 90px;
+  padding: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.list_technology li:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+
+.technology_info h2 {
+  color: white;
+  opacity: 0.75;
+  font-size: 1.5rem;
+  padding-top: 50px;
+}
+.technology_info h1 {
+  color: white;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 3.2rem;
+  padding-top: 30px;
+}
+.technology_info p {
+  color: white;
+  line-height: 30px;
+  font-size: 1.2rem;
+  padding-top: 50px;
+  text-align: justify;
+}
+.technology_pic img {
+  height: 450px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1250px) {
+  .technology {
+    width: 95%;
+  }
+  .technology_grid {
+    grid-template-columns: 8% 40% 48%;
+
+    column-gap: 4%;
+  }
+  .technology_pic {
+  }
+  .technology_pic img {
+    width: 100%;
+  }
+  .list_technology {
+    align-self: center;
+  }
+  .list_technology li {
+    height: 70px;
+    width: 70px;
+  }
+  .technology_info {
+  }
+  .technology_info h2 {
+    font-size: 1.3rem;
+    padding-top: 30px;
+  }
+  .technology_info h1 {
+    font-size: 2.7rem;
+    padding-top: 30px;
+  }
+  .technology_info p {
+    font-size: 1.1rem;
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .technology {
+    width: 100%;
+  }
+  .technology h1 {
+    text-align: center;
+  }
+  .technology_grid {
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 40% 10% 40%;
+    grid-template-columns: 100%;
+
+    column-gap: 5%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+  }
+  .technology_pic {
+    grid-row: 1/2;
+  }
+  .technology_pic img {
+    height: 300px;
+  }
+  .list_technology {
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .technology_info {
+    grid-row: 3/4;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

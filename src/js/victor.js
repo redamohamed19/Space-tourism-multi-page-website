@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/style.css';
 import '../css/destination.css';
 import commander from '../imgs/crew/image-victor-glover.png';
-const victor = () => {
+const victor = props => {
   return (
     <div className="crew">
       <h1>
@@ -20,10 +20,10 @@ const victor = () => {
           </p>
         </div>
         <ul className="crew_list">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li onClick={props.clickhurley}></li>
+          <li onClick={props.clickmark}></li>
+          <li onClick={props.clickvictor}></li>
+          <li onClick={props.clickansari}></li>
         </ul>
         <div className="crew_pic">
           <img src={commander} alt="crew_pic" />
